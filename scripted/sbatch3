@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#submit this script with: sbatch thefilename
+
+#SBATCH --time=05:00:00   # walltime
+#SBATCH --nodes=1   # number of nodes
+#SBATCH --ntasks=1      # limit to one node
+#SBATCH --cpus-per-task=1  # number of processor cores (i.e. threads)
+#SBATCH --partition=haswell,sandy,west
+#SBATCH --mem-per-cpu=1700M   # memory per CPU core
+#SBATCH -J "scan_higgs3"   # job name
+#SBATCH --mail-user=Jobst.Ziebell@tu-dresden.de   # email address
+#SBATCH --mail-type=BEGIN,END,FAIL,REQUEUE,TIME_LIMIT
+
+cd /home/s3377910
+source prepare_FS.sh
+
+cd input/scripted
+python run_taurus3.py
+
+exit 0
+
+
