@@ -7,7 +7,7 @@ run_fs = '../../FlexibleSUSY/models/NUHMSSMNoFV/run_NUHMSSMNoFV.x'
 
 template_file_name = 'ms_tb_ma2_at'
 fs_input_file_name = 'fs_input'
-output_file_name = 'result_ms_ma2'
+output_file_name = 'result_ms_ma2_only_sane'
 
 msusy_range = numpy.array( [100, 15000] )
 ma_range = numpy.array( [100, 15000] )
