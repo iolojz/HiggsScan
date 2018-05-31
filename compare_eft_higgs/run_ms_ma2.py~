@@ -9,19 +9,24 @@ template_file_name = 'ms_tb_ma2_at'
 fs_input_file_name = 'fs_input'
 output_file_name = 'result_ms_ma2'
 
-msusy_range = numpy.array( [100, 15000] )
-ma2_range = numpy.array( [100 ** 2, 15000 ** 2] )
+msusy_range = numpy.array( [100, 1500000] )
+ma_range = numpy.array( [100, 1500] )
+tan_beta_range = numpy.array( [2, 50] )
 
-num_msusy_points = 40
-num_ma2_points = 40
+num_msusy_points = 80
+num_ma2_points = 10
+tan_beta_points = 40
 
 msusy_points = numpy.unique(
   numpy.logspace( numpy.log10( msusy_range[0] ),
     numpy.log10( msusy_range[1] ), 
     num = num_msusy_points ) )
-ma2_points = numpy.unique(
-  numpy.linspace( ma2_range[0], ma2_range[1], 
-    num = num_ma2_points ) )
+ma2_points = numpy.square( numpy.unique(
+  numpy.linspace( ma_range[0], ma_range[1], 
+    num = num_ma2_points ) ) )
+tan_beta_points = numpy.unique(
+  numpy.linspace( tan_beta_range[0], tan_beta_range[1], 
+    num = num_tan_beta_points ) )
 
 template_file = open(template_file_name, 'r')
 template = template_file.read()
@@ -29,13 +34,12 @@ template_file.close()
 
 output_file = open(output_file_name, 'w')
 
-for msusy, ma2 in product(
-  msusy_points, ma2_points):
+for msusy, ma2, tan_beta in product(
+  msusy_points, ma2_points, tan_beta_points):
 
-  tan_beta = 5.0
   at = -msusy / tan_beta
 
-  print(msusy, ma2)
+  print(msusy, ma2, tan_beta)
   sys.stdout.flush()  
   
   fs_input_str = template.replace(
