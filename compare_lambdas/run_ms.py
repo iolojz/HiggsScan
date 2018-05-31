@@ -37,12 +37,12 @@ def run_input( run_fs, msusy, ma2, tan_beta ):
   matching_worked = False
   for line in io.StringIO(fs_output):
     if "Matching to THDMII" in line:
-      matching_data = ' '.join( line.split()[-8:] )
+      matching_data = ' '.join( line.split()[-9:] )
       matching_worked = True
       break
   
   if not matching_worked:
-    matching_data = '0, 0, 0, 0, 0, 0, 0, 0'
+    matching_data = '0, 0, 0, 0, 0, 0, 0, 0, 0'
   
   return (str(msusy) + ", " +
     str(ma2) + ", " +
