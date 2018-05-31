@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
   call(["cp", run_fs_orig, run_fs_local])
 
-  msusy_range = numpy.array( [100, 30000] )
+  msusy_range = numpy.array( [100, 5000] )
   ma_range = numpy.array( [566.667, 566.667] )
   tan_beta_range = numpy.array( [6.92308, 6.92308] )
   
