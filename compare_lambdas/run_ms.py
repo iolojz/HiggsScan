@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
   call(["cp", run_fs_orig, run_fs_local])
 
-  msusy_range = numpy.array( [100, 1500000] )
+  msusy_range = numpy.array( [100, 30000] )
   ma_range = numpy.array( [566.667, 566.667] )
   tan_beta_range = numpy.array( [6.92308, 6.92308] )
   
@@ -69,8 +69,7 @@ if __name__ == '__main__':
   num_tan_beta_points = 40
   
   msusy_points = numpy.unique(
-    numpy.logspace( numpy.log10( msusy_range[0] ),
-      numpy.log10( msusy_range[1] ), 
+    numpy.linspace( msusy_range[0], msusy_range[1], 
       num = num_msusy_points ) )
   ma2_points = numpy.square( numpy.unique(
     numpy.linspace( ma_range[0], ma_range[1], 

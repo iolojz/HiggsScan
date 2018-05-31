@@ -79,7 +79,7 @@ if __name__ == '__main__':
     numpy.linspace( tan_beta_range[0], tan_beta_range[1], 
       num = num_tan_beta_points ) )
   
-  output_file_name = 'result_ms_ma2_tb'
+  output_file_name = 'result_ms'
   with open(output_file_name, 'w') as output_file:
     with Parallel( n_jobs = 4 ) as parallel:
       input_data = product(
