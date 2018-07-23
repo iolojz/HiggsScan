@@ -1,0 +1,84 @@
+Module mathematica/10.0 loaded.
+Module gcc/7.1.0 loaded.
+Module boost/1.66.0-gnu7.1-intelmpi2018-python2.7 and 1 dependency loaded.
+Module eigen/3.3.3 loaded.
+Module gsl/1.16 loaded.
+Note: Python-2.7.5 is built with GCC, NumPy-1.7.1 and SciPy-0.12.0 are built
+with Intel/MKL.
+      Please set the number of threads with OMP_NUM_THREADS *and*
+MKL_NUM_THREADS. 
+Module python/2.7.5-scipy and 1 dependency loaded.
+Traceback (most recent call last):
+  File "run_ms.py", line 128, in <module>
+    run_fs_local, *input_args ) for input_args in batch )
+  File "/home/s3377910/.local/lib/python2.7/site-packages/joblib/parallel.py", line 789, in __call__
+    self.retrieve()
+  File "/home/s3377910/.local/lib/python2.7/site-packages/joblib/parallel.py", line 740, in retrieve
+    raise exception
+joblib.my_exceptions.JoblibNameError: JoblibNameError
+___________________________________________________________________________
+Multiprocessing exception:
+...........................................................................
+/home/h7/s3377910/HiggsScan/scan_ms/run_ms.py in <module>()
+    123       batch_size = num_parallel_workers
+    124 
+    125       for batch_candidate in group_iterable( batch_size, input_data ):
+    126         batch = filter( lambda args: not None in args, batch_candidate )
+    127         results = parallel( delayed(run_input)( 
+--> 128           run_fs_local, *input_args ) for input_args in batch )
+    129       
+    130         output_file.write("\n".join( results ) + "\n")
+    131         output_file.flush()
+    132 
+
+...........................................................................
+/home/s3377910/.local/lib/python2.7/site-packages/joblib/parallel.py in __call__(self=Parallel(n_jobs=8), iterable=<generator object <genexpr>>)
+    784             if pre_dispatch == "all" or n_jobs == 1:
+    785                 # The iterable was consumed all at once by the above for loop.
+    786                 # No need to wait for async callbacks to trigger to
+    787                 # consumption.
+    788                 self._iterating = False
+--> 789             self.retrieve()
+        self.retrieve = <bound method Parallel.retrieve of Parallel(n_jobs=8)>
+    790             # Make sure that we get a last message telling us we are done
+    791             elapsed_time = time.time() - self._start_time
+    792             self._print('Done %3i out of %3i | elapsed: %s finished',
+    793                         (len(self._output), len(self._output),
+
+---------------------------------------------------------------------------
+Sub-process traceback:
+---------------------------------------------------------------------------
+NameError                                          Mon Jul 23 12:56:31 2018
+PID: 27480 Python 2.7.5: /sw/taurus/libraries/python/2.7.5-scipy/bin/python
+...........................................................................
+/home/s3377910/.local/lib/python2.7/site-packages/joblib/parallel.py in __call__(self=<joblib.parallel.BatchedCalls object>)
+    126     def __init__(self, iterator_slice):
+    127         self.items = list(iterator_slice)
+    128         self._size = len(self.items)
+    129 
+    130     def __call__(self):
+--> 131         return [func(*args, **kwargs) for func, args, kwargs in self.items]
+        func = <function run_input>
+        args = ('./run_NUHMSSMNoFV.x', 300.0, 90000.0, 10.0, 0.0)
+        kwargs = {}
+        self.items = [(<function run_input>, ('./run_NUHMSSMNoFV.x', 300.0, 90000.0, 10.0, 0.0), {})]
+    132 
+    133     def __len__(self):
+    134         return self._size
+    135 
+
+...........................................................................
+/home/h7/s3377910/HiggsScan/scan_ms/run_ms.py in run_input(run_fs='./run_NUHMSSMNoFV.x', msusy=300.0, ma2=90000.0, tan_beta=10.0, xt=0.0)
+     12 
+     13   at = - xt + mu / tan_beta
+     14   ab = mu * tan_beta
+     15   atau = mu * tan_beta
+     16 
+---> 17   print(ms)
+     18   sys.stdout.flush()
+     19   
+     20   template_file_name = 'template'
+     21 
+
+NameError: global name 'ms' is not defined
+___________________________________________________________________________
