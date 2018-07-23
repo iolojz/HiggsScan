@@ -16,7 +16,7 @@ source prepare_FS.sh
 module load python/2.7.5-scipy
 
 cd HiggsScan/scan_ms
-python run_ms.py masses_ms
+python run_ms.py masses_ms2L
 
 exit 0
 
