@@ -1,0 +1,438 @@
+Module mathematica/10.0 unloaded.
+Module mathematica/10.0 loaded.
+Module gcc/7.1.0 unloaded.
+Module gcc/7.1.0 loaded.
+Module boost/1.66.0-gnu7.1-intelmpi2018-python2.7 and 2 dependencies unloaded.
+Module boost/1.66.0-gnu7.1-intelmpi2018-python2.7 and 2 dependencies loaded.
+Module eigen/3.3.3 unloaded.
+Module eigen/3.3.3 loaded.
+Module gsl/1.16 unloaded.
+Module gsl/1.16 loaded.
+Note: Python-2.7.5 is built with GCC, NumPy-1.7.1 and SciPy-0.12.0 are built
+with Intel/MKL.
+      Please set the number of threads with OMP_NUM_THREADS *and*
+MKL_NUM_THREADS. 
+Module python/2.7.5-scipy and 1 dependency loaded.
+-15000.0
+-14393.9393939
+-14696.969697
+-13787.8787879
+-14090.9090909
+-13484.8484848
+-12878.7878788
+-13181.8181818
+xt = 2.03118e+06
+xb = -28803
+xtau = -17447
+---------------xt = 
+2.083e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 2.29026e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = xt = xt = 2.23845e+062.39389e+062.13481e+06
+
+xb = 
+xb = -28803xb = 
+-28803xtau = -28803
+-17447
+xtau = 
+xtau = -17447----------------17447
+
+
+------------------------------
+
+xt = 2.18663e+06xt = 
+xb = -28803
+xtau = -17447
+2.34208e+06
+---------------xb = 
+-28803
+xtau = -17447
+---------------
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+-12575.7575758
+-12272.7272727
+-11969.6969697
+-11666.6666667
+-11363.6363636
+-11060.6060606
+-10757.5757576
+-10454.5454545
+xt = 1.82392e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.97937e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.92755e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = xt = 1.66847e+061.61666e+06
+
+xb = xb = -28803
+-28803xtau = 
+-17447xtau = 
+-17447---------------
+
+---------------
+xt = 1.72029e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.87573e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.7721e+06
+xb = -28803
+xtau = -17447
+---------------
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+-10151.5151515
+-9848.48484848
+-9545.45454545
+-9242.42424242
+-8939.39393939
+-8636.36363636
+-8333.33333333
+-8030.3030303
+xt = 1.56484e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.40939e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.35758e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.46121e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.51302e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.25394e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.20213e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.30576e+06
+xb = -28803
+xtau = -17447
+---------------
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+xt = 1.40939e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.35758e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.51302e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.30576e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.25394e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.46121e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.20213e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = xt = 1.46121e+061.40939e+06
+
+xb = xb = -28803-28803
+
+xtau = xtau = -17447-17447
+
+------------------------------
+
+xt = 1.51302e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.25394e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.30576e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.35758e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.20213e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = xt = 1.40939e+061.30576e+06
+
+xb = xb = -28803-28803
+
+xtau = -17447xtau = 
+----------------17447
+
+---------------
+xt = 1.46121e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.25394e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.35758e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.51302e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.20213e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = xt = xt = xt = 1.46121e+061.30576e+061.25394e+06
+
+
+xb = xb = xb = -28803-28803-28803
+
+
+1.40939e+06xtau = xtau = xtau = 
+-17447-17447-17447
+xb = 
+
+---------------------------------------------
+-28803
+
+
+xtau = -17447
+---------------
+xt = 1.35758e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.51302e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.20213e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.25394e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.30576e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.46121e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.40939e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.35758e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.51302e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.20213e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.25394e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.30576e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.46121e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.40939e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.35758e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.51302e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.20213e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = xt = 1.25394e+061.30576e+06
+
+xb = xb = -28803-28803
+
+xtau = xtau = -17447-17447
+
+------------------------------
+
+xt = 1.46121e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.40939e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.35758e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.51302e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.20213e+06
+xb = -28803
+xtau = -17447
+---------------
+xt = 1.18028e+06
+xb = 274622
+xtau = 97175.2
+---------------
+xt = 1.04507e+06
+xb = 12058.6
+xtau = -62463.3
+---------------
+xt = 1.08045e+06
+xb = -363743
+xtau = -292435
+---------------
+xt = 1.26884e+06
+xb = 331509
+xtau = 140414
+---------------
+xt = 1.02206e+06
+xb = -288701
+xtau = -243667
+---------------
+xt = 486685
+xb = -288487
+xtau = -205489
+---------------
+xt = 1.07207e+06
+xb = 209215
+xtau = 63056.8
+---------------
+xt = 1.1457e+06
+xb = 443053
+xtau = 137844
+---------------
+xt = 1.00777e+06
+xb = -96762.7
+xtau = -144929
+---------------
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+xt = 1.06073e+06
+xb = -273566
+xtau = -189309
+---------------
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Root finder did not find a solution!
+xt = 1.08447e+06
+xb = -356766
+xtau = -285862
+---------------
+xt = 1.01403e+06
+xb = 264425
+xtau = 26685.1
+---------------
+xt = 1.026e+06
+xb = 1.47901e+06
+xtau = 381847
+---------------
+xt = 983478
+xb = -263191
+xtau = -202271
+---------------
+xt = 1.07621e+06
+xb = -268292
+xtau = -176376
+---------------
+xt = 910134
+xb = 258521
+xtau = -308537
+---------------
+xt = 1.09285e+06
+xb = -330319
+xtau = -258992
+---------------
+slurmstepd: error: *** JOB 17170697 ON taurusi5565 CANCELLED AT 2018-07-20T14:56:11 ***

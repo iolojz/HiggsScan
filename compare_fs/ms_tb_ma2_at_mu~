@@ -54,32 +54,32 @@ Block MINPAR                 # Input parameters
     3   ${TanBeta}           # TanBeta
 Block EXTPAR
     0   ${MS}                # input scale 
-    1   ${MS}                 # M1 (MassB)
-    2   ${MS}                 # M2 (MassWB)
-    3   ${MS}                 # M3 (MassG)
-   11   ${At}                 # AtIN
-   12   0                    # AbIN
-   13   0                    # AtauIN
+    1   ${MS}                # M1 (MassB)
+    2   ${MS}                # M2 (MassWB)
+    3   ${MS}                # M3 (MassG)
+   11   ${At}                # AtIN
+   12   ${Ab}                    # AbIN
+   13   ${Atau}                    # AtauIN
    14   0.0                  # AcIN
    15   0.0                  # AsIN
    16   0.0                  # AmuonIN
    17   0.0                  # AuIN
    18   0.0                  # AdIN
    19   0.0                  # AeIN
-   23   ${Mu}                 # MuIN
+   23   ${Mu}                # MuIN
    24   ${MA2}               # mA2IN
-   31   ${MS}                 # ml11IN
-   32   ${MS}                 # ml22IN
-   33   ${MS}                 # ml33IN
-   34   ${MS}                 # me11IN
-   35   ${MS}                 # me22IN
-   36   ${MS}                 # me33IN
-   41   ${MS}	              # mq11IN
-   42   ${MS}                 # mq22IN
-   43   ${MS}                 # mq33IN
-   44   ${MS}                 # mu11IN
-   45   ${MS}                 # mu22IN
-   46   ${MS}                 # mu33IN
-   47   ${MS}                 # md11IN
-   48   ${MS}                 # md22IN
-   49   ${MS}                 # md33IN
+   31   ${MS}                # ml11IN
+   32   ${MS}                # ml22IN
+   33   ${MS}                # ml33IN
+   34   ${MS}                # me11IN
+   35   ${MS}                # me22IN
+   36   ${MS}                # me33IN
+   41   ${MS}	             # mq11IN
+   42   ${MS}                # mq22IN
+   43   ${MS}                # mq33IN
+   44   ${MS}                # mu11IN
+   45   ${MS}                # mu22IN
+   46   ${MS}                # mu33IN
+   47   ${MS}                # md11IN
+   48   ${MS}                # md22IN
+   49   ${MS}                # md33IN
